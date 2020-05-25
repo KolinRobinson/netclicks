@@ -26,7 +26,7 @@ leftMenu.addEventListener('click', e => {
 
 const cartImg = document.querySelectorAll('.tv-card__img');
 
-for (i = 0; i < cartImg.length; i++) {
+for (let i = 0; i < cartImg.length; i++) {
 	let srcImg = cartImg[i].src;
 	let defaultImg = 'https://i.pinimg.com/originals/4b/1d/11/4b1d11587776cdda3423684ff74f2660.jpg';
 	cartImg[i].addEventListener('mouseover', function (e) {
